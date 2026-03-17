@@ -1,0 +1,35 @@
+# Python
+.venv
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+airflow.cfg
+airflow.db
+unittests.cfg
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
