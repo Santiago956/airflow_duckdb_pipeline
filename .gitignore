@@ -4,6 +4,11 @@ venv/
 env/
 __pycache__/
 *.py[cod]
+
+# Astro
+.astro/
+.env.local
+airflow_settings.yaml
 *$py.class
 *.egg-info/
 dist/
